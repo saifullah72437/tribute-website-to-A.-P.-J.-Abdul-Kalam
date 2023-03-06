@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 900px;
+    margin: auto;
+
+}
+.container{
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+}
+.home_container{
+    margin-top: 50px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.image{
+    border-radius: 50%;
+    border: 2px solid #1d1e4c;
+}
+.text h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #1d1e4c;
+    font-family: serif;
+}
+.text h4{
+    text-align: end;
+   font-size: 25px;
+   font-weight: bold;
+   font-family: serif;
+
+    
+}
+
+.infoContainer{
+    width: 837px;
+    margin-right: 40px;
+   
+}
+.infoContainer h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.infoContainer p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+.mainPoints{
+    margin-top: 50px;
+}
+.mainPoints h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.points{
+    margin-left: 40px;
+    
+}
+.points li{
+    margin-bottom: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: end;
+}
